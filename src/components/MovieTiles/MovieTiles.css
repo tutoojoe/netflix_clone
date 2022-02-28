@@ -1,0 +1,34 @@
+.tile_container{
+    margin-left: 3rem;
+    color: white;
+     
+}
+
+.tiles{
+    display: flex;
+    padding: 20px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+
+}
+
+.tile{
+    max-height: 200px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.tiles::-webkit-scrollbar{
+    display: none;
+}   
+
+.smallTile{
+    max-height: 140px; 
+    margin-right: 10px;
+    cursor: pointer;
+}
+.tile:hover{
+    transform: scale(1.1) ;
+}
+.smallTile:hover{
+    transform: scale(1.1) ;
+}

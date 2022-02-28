@@ -1,0 +1,33 @@
+.navbar_container {
+  height: 4rem;
+  /* background-color:transparent; */
+  z-index: 10;
+  position: sticky;
+  
+  
+  padding-left: 3rem;
+  padding-right: 3rem;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+
+}
+
+.navbar_logo {
+  width: 7rem;
+}
+.navbar_avatar {
+  border-radius: 1rem;
+  width: 3rem;
+}
+
+.navbar_links {
+  display: flex;
+  /* justify-content: flex-start; */
+}
+
+.navbar_links h4 {
+  margin-left: 1rem;
+}
