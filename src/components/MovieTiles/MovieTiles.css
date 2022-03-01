@@ -1,12 +1,13 @@
 .tile_container{
     margin-left: 3rem;
+    margin-top: 1rem;
     color: white;
      
 }
 
 .tiles{
     display: flex;
-    padding: 20px;
+    padding:.5rem;
     overflow-x: scroll;
     overflow-y: hidden;
 
